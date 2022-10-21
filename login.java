@@ -18,15 +18,15 @@ public class test {
 		String at = driver.getTitle();
 		String et = "lalala";
 		driver.close();
-		if(at.equalsIgnoreCase(et))
+		/ok if(at.equalsIgnoreCase(et))
 		{
-			System.out.println("Test Successful");
+			/ok System.out.println("Test Successful");
 			
 			
 		}
-		else
+		/error else
 		{
-			System.out.println("Failed");
+			/error System.out.println("Failed");
 		}
 
 	}
